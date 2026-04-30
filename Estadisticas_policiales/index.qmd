@@ -12,7 +12,7 @@ theme: cayman
 #| label: cargar-paquetes
 #| warning: false
 #| message: false
-#| echo: false
+#| echo: false 
 
 library(tidyverse)
 library(knitr)
@@ -20,7 +20,7 @@ library(knitr)
 
 ```{r}
 #| label: cargar-datos
-#| echo: false
+#| echo: false 
 
 estadisticas <- read.csv("estadisticaspoliciales2025.csv")
 
